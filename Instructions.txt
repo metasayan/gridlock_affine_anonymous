@@ -1,0 +1,32 @@
+
+#####################################################################################################
+############
+##                  FLIPKART GRIDLOCK HACKATHON - TRAFFIC SIGNAL OPTIMIZATION 
+############
+#####################################################################################################
+
+PREREQUISITES - 
+
+1. RStudio with R version 3.3.0 or greater
+2. Active/Uninterrupted Internet Connection
+
+STEPS TO EXECUTE  - 
+
+1.  Unzip the ZIP file "Gridlock_Hackathon.zip"
+2.  Open the R Project "Gridlock_Hackathon" in the RStudio
+3.  Under this project open the R script "Traffic_Signal_Optimization_GridlockHack_R.R" 
+4.  The code starts at line 75. The first bit is installation of required packages. [one-time] 
+4a. Uncomment the code from line 84 to 96. Select lines 84-96 and Run [Ctrl+Enter]
+4b. Once all the packages are installed, re-comment these lines of code. Select all and Run [Ctrl+A and Ctrl+Enter]
+5. You should get a popup to select a working directory. Set the working directory to wherever the you have unzipped the folder
+6. The code will initiate an infinite loop giving out the Signal Green times for all optimized cycles. To stop the loop at any point, click on "STOP" on top right of R Console
+
+OUTPUTS - 
+
+1. The code gives 3 CSV flat files and 2 JSON files in output which get overwritten
+2. The last row of the 3 CSV files give the latest instance of the Optmization cycle that has run. All the remaining rows will give historical view
+3. The JSON files connect to the Front End. These can directly feed into the Traffic Signal Interface
+
+CONTACT - 
+
+In case of any issues in running the code. Get in touch via email at "suraj.mishra@affineanalytics.com" or call at "+91-9008508877"
